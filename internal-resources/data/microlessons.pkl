@@ -1,0 +1,38 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+factoryMethodPattern = new Template.Microlesson {
+  friendlyName = "Factory Method Pattern"
+  dirName = "factory-method-pattern"
+  type = "Content"
+  videoUrl = ""
+}
+
+factoryMethodPatternInAction = new Template.Microlesson {
+  friendlyName = "Factory Method Pattern in Action"
+  dirName = "factory-method-pattern-in-action"
+  type = "Content"
+  videoUrl = ""
+}
+
+abstractFactoryPattern = new Template.Microlesson {
+  friendlyName = "Abstract Factory Pattern"
+  dirName = "abstract-factory-pattern"
+  type = "Content"
+  videoUrl = ""
+}
+
+abstractFactoryPatternInAction = new Template.Microlesson {
+  friendlyName = "Abstract Factory Pattern in Action"
+  dirName = "abstract-factory-pattern-in-action"
+  type = "Content"
+  videoUrl = ""
+}
