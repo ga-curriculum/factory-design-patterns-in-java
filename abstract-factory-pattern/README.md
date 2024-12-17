@@ -3,7 +3,7 @@
   <span class="subhead">Abstract Factory Pattern</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to examine the advantages and limitations of abstract factory design patterns.
+**Learning objective:** By the end of this lesson, you'll be able to identify the problem contexts, during your programming tasks, in which the abstract factory design pattern is the best solution.
 
 ## Abstract factory design pattern
 
@@ -65,3 +65,18 @@ The abstract factory design pattern does have some pitfalls that you should be a
 - **Limited flexibility at the product level**: While swapping entire families is straightforward, this approach can be less flexible if we want to add or change just one product.
 - **Coupling to the factory interface**: Everything relies on the abstract factory's interface. If it changes, we will likely need to update every concrete factory.
 - **Effort to add new families**: Creating a brand-new family of products involves writing new concrete classes and a new factory, which may be time-consuming.
+
+### Abstrct factory design pattern components
+- **Abstract product interfaces**: Define families of products.
+- **Concrete product classes**: Implement the abstract product interfaces.
+- **Abstract factory interface**: Declares methods for creating abstract products.
+- **Concrete factories**: Implement the abstract factory to produce products of a particular family.
+
+### Most suitable problem contexts to use abstract factory design pattern
+- When the application requires creating families of related products.
+- To enforce consistency between products.
+- When we need to provide a layer of abstraction for creating product families.
+
+### When NOT to use abstract factory design pattern
+- When there’s no need to create families of products.
+- When the application complexity outweighs the benefits of adding abstract factory logic.

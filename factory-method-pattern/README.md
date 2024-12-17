@@ -3,7 +3,7 @@
   <span class="subhead">Factory Method Pattern</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to examine the advantages and limitations of factory design patterns.
+**Learning objective:** By the end of this lesson, you'll be able to identify the problem contexts, during your programming tasks, in which the factory design pattern is the best solution.
 
 ## Factory method pattern
 
@@ -32,3 +32,17 @@ To add a new carrier, we would create a new concrete that returns the appropriat
 By abstracting this choice behind a factory method, we also keep our client code focused on what it needs to achieve rather than how to achieve it. This reduces coupling between your client code and any specific label class.
 
 As a result, if you need to adjust how labels are created — such as by creating a new shipping policy or a special label format — you can do so in a single place.
+
+### Factory design pattern components
+- **Product Interface (or Abstract Class)**: The common interface for all concrete product types.
+- **Concrete Products**: The specific classes implementing the product interface.
+- **Factory Class**: Contains the logic to instantiate the appropriate concrete product.
+
+### Most suitable problem contexts to use factory design pattern
+- When the client code should not care about the exact class of object to be created.
+- To simplify complex or repetitive object creation logic.
+- When we need to decouple object creation logic from client code.
+
+### When NOT to use factory design pattern
+- When the object creation is very simple and doesn’t require abstraction.
+- If we need to frequently modify the factory logic to accommodate new object types (may lead to maintenance issues).

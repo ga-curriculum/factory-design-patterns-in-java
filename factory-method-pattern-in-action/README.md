@@ -3,7 +3,7 @@
   <span class="subhead">Factory Method Pattern in Action</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to practice applying the Factory pattern to promote loose coupling and maintainability in an application.
+**Learning objective:** By the end of this lesson, you'll be able to apply the factory pattern to promote loose coupling and maintainability in an application.
 
 ## Use the Factory pattern to create a car factory
 

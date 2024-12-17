@@ -3,7 +3,7 @@
   <span class="subhead">Abstract Factory Pattern in Action</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to practice applying the abstract factory design pattern to enhance a software's flexibility and maintainability.
+**Learning objective:** By the end of this lesson, students will be able to apply the abstract factory design pattern to enhance a software's flexibility and maintainability.
 
 ### Abstract factory design pattern in action
 
