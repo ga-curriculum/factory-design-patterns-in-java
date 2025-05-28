@@ -30,9 +30,9 @@ In this module, you'll learn how factory design patterns reduce class and object
 
 ### Course landing pages
 
-- [JCD - Java Career Development Program](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/jcd.html)
-- [JSC - Java Short Course](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/jsc.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [JCD - Java Career Development Program](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/factory-design-patterns-in-java/canvas-landing-pages/jcd.html)
+- [JSC - Java Short Course](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/factory-design-patterns-in-java/canvas-landing-pages/jsc.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/factory-design-patterns-in-java/canvas-landing-pages/fallback.html)
 
 ### Resources
 
